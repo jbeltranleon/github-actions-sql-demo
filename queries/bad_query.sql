@@ -1,4 +1,4 @@
-select *
-from orders
-where order_date >= '2024-01-01'
-order by order_date;
+SELECT ORDER_ID
+FROM orders
+WHERE order_date >= '2024-01-01'
+ORDER BY order_date;
